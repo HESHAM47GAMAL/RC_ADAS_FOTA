@@ -1,0 +1,18 @@
+/*
+ * Ultrasonic.c
+ *
+ *  Created on: May 4, 2024
+ *      Author: moham
+ */
+
+#include "Ultrasonic.h"
+
+
+
+uint32_t IC_Val1 = 0;
+uint32_t IC_Val2 = 0;
+uint32_t Difference = 0;
+uint8_t Is_First_Captured = 0;  // is the first value captured ?
+uint8_t Distance  = 0;
+
+

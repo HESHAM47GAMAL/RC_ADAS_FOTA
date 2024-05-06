@@ -1,0 +1,7 @@
+../Core/Src/Motor_Driver.c:18:6:HAL_DC_Motors_Forward	8	static
+../Core/Src/Motor_Driver.c:30:6:HAL_DC_Motors_Backword	8	static
+../Core/Src/Motor_Driver.c:37:6:HAL_DC_Motors_Stop	8	static
+../Core/Src/Motor_Driver.c:43:6:HAL_DC_Motor_Init	8	static
+../Core/Src/Motor_Driver.c:49:6:HAL_DC_Motors_Set_Speed	16	static
+../Core/Src/Motor_Driver.c:58:6:HAL_ServoMotor_Init	8	static
+../Core/Src/Motor_Driver.c:64:6:HAL_ServoMotor_Set_Angel	24	static

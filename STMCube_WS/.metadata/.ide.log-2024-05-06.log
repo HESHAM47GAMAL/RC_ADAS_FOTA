@@ -1,0 +1,49 @@
+2024-05-07 14:24:43,558 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-07 14:24:49,048 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-05-07 14:25:53,958 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 794320256 Bytes (979369984)
+2024-05-07 14:25:55,378 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 817911168 Bytes (979369984)
+2024-05-07 14:25:57,530 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 331303280 Bytes (979369984)
+2024-05-07 14:25:57,645 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-05-07 14:25:57,645 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-05-07 14:25:57,645 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-05-07 14:25:57,645 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-05-07 14:25:57,646 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-05-07 14:25:57,646 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-07 14:25:57,646 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-05-07 14:25:57,646 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-05-07 14:25:57,647 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-05-07 14:25:57,850 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\MXTmpFiles\license.tmp_save
+2024-05-07 14:25:57,926 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\MXTmpFiles\license.tmp
+2024-05-07 14:25:57,987 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\gpio.c_save
+2024-05-07 14:25:58,095 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\gpio.c
+2024-05-07 14:25:58,110 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\gpio.h_save
+2024-05-07 14:25:58,173 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\gpio.h
+2024-05-07 14:25:58,458 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\tim.c_save
+2024-05-07 14:25:58,580 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\tim.c
+2024-05-07 14:25:58,600 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\tim.h_save
+2024-05-07 14:25:58,678 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\tim.h
+2024-05-07 14:25:58,715 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\usart.c_save
+2024-05-07 14:25:58,829 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\usart.c
+2024-05-07 14:25:58,834 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\usart.h_save
+2024-05-07 14:25:58,915 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\usart.h
+2024-05-07 14:25:58,953 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\stm32f4xx_it.c_save
+2024-05-07 14:25:59,148 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\stm32f4xx_it.c
+2024-05-07 14:25:59,168 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\stm32f4xx_it.h_save
+2024-05-07 14:25:59,244 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\stm32f4xx_it.h
+2024-05-07 14:25:59,302 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\stm32f4xx_hal_msp.c_save
+2024-05-07 14:25:59,410 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\stm32f4xx_hal_msp.c
+2024-05-07 14:25:59,420 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\MXTmpFiles\system.tmp_save
+2024-05-07 14:25:59,480 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\MXTmpFiles\system.tmp
+2024-05-07 14:25:59,533 [INFO] CodeEngine:311 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-05-07 14:25:59,612 [INFO] CodeEngine:335 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\stm32f4xx_hal_conf.h
+2024-05-07 14:25:59,648 [WARN] IPConfigManager:2982 - Warning: the RefConfig PLL2P_FOR_MCO is not available in your config.xml file
+2024-05-07 14:25:59,675 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\main.h_save
+2024-05-07 14:25:59,790 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Inc\main.h
+2024-05-07 14:25:59,810 [INFO] CodeEngine:255 - oldGeneratedFile, H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\main.c_save
+2024-05-07 14:25:59,902 [INFO] CodeEngine:279 - Generated code: H:\2.work_on_myself\NTI\FINAL_Project_NTI\STMCube_WS\UltrasonicTest\Core\Src\main.c
+2024-05-07 14:26:00,518 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 434mS.
+2024-05-07 14:26:00,520 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-05-07 14:26:00,591 [INFO] ConfigFileManager:1503 - The Die is : DIE421
+2024-05-07 14:26:01,422 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 902mS.
+2024-05-07 14:26:01,423 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-05-07 14:26:01,425 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.

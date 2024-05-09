@@ -1,3 +1,6 @@
-../Core/Src/Ultrasonic.c:16:6:delay	16	static
-../Core/Src/Ultrasonic.c:29:6:HAL_TIM_IC_CaptureCallback	16	static
-../Core/Src/Ultrasonic.c:55:11:Ultrasonic_Distance	8	static
+../Core/Src/Ultrasonic.c:20:6:UltrasonicInit	8	static
+../Core/Src/Ultrasonic.c:31:6:delay	16	static
+../Core/Src/Ultrasonic.c:44:6:HAL_TIM_IC_CaptureCallback	16	static
+../Core/Src/Ultrasonic.c:191:6:UltrasonicTrigger	16	static
+../Core/Src/Ultrasonic.c:253:6:Ultrasonic_Distance	24	static
+../Core/Src/Ultrasonic.c:339:10:Ultrasonic_Distance1	24	static

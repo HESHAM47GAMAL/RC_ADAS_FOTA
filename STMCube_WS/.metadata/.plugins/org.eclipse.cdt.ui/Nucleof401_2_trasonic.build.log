@@ -1,0 +1,10 @@
+22:55:04 **** Incremental Build of configuration Debug for project Nucleof401_2_trasonic ****
+make -j12 all 
+arm-none-eabi-size  Nucleof401_2_trasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13716	     12	   1796	  15524	   3ca4	Nucleof401_2_trasonic.elf
+Finished building: default.size.stdout
+ 
+
+22:55:05 Build Finished. 0 errors, 0 warnings. (took 272ms)
+

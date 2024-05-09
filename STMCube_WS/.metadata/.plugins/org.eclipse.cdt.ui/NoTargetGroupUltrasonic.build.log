@@ -1,0 +1,10 @@
+12:24:11 **** Incremental Build of configuration Debug for project NoTargetGroupUltrasonic ****
+make -j12 all 
+arm-none-eabi-size  NoTargetGroupUltrasonic.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13516	     12	   1724	  15252	   3b94	NoTargetGroupUltrasonic.elf
+Finished building: default.size.stdout
+ 
+
+12:24:12 Build Finished. 0 errors, 0 warnings. (took 926ms)
+

@@ -1,0 +1,10 @@
+11:24:47 **** Incremental Build of configuration Debug for project ultrasonic_temp_clock_K ****
+make -j12 all 
+arm-none-eabi-size  ultrasonic_temp_clock_K.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14540	     12	   1796	  16348	   3fdc	ultrasonic_temp_clock_K.elf
+Finished building: default.size.stdout
+ 
+
+11:24:47 Build Finished. 0 errors, 0 warnings. (took 340ms)
+

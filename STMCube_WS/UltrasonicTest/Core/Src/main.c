@@ -22,11 +22,10 @@
 #include "usart.h"
 #include "gpio.h"
 
-
-#include "Ultrasonic.h"
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
+#include "Ultrasonic.h"
 
 /* USER CODE END Includes */
 
@@ -60,8 +59,8 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+extern uint16_t Ultrasonic_Read[6] ;
 
-uint16_t Catched_Dis = 0 ;
 
 /* USER CODE END 0 */
 
@@ -97,17 +96,91 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM1_Init();
   MX_USART3_UART_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  /*  ⚠️used to set ICU interrupt   */
-  HAL_TIM_IC_Start_IT(&htim1, TIM_CHANNEL_1);
+
+  /*  ⚠�?used to set ICU interrupt   */
+  UltrasonicInit();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  for(uint8_t it = 0 ; it < 6; it++)
+	  {
+
+	    Ultrasonic_Distance(it,&Ultrasonic_Read[it]);
+	    HAL_UART_Transmit(&huart3,(uint8_t * )"Ultrasonic",10,1000);
+	    switch(it)
+	    {
+	    case USF :
+	    	HAL_UART_Transmit(&huart3,(uint8_t * )"1: ",3,1000);
+	    	break;
+	    case USB :
+	    	HAL_UART_Transmit(&huart3,(uint8_t * )"2: ",3,1000);
+			break;
+	    case USFR :
+	    	HAL_UART_Transmit(&huart3,(uint8_t * )"3: ",3,1000);
+			break;
+	    case USBR :
+	    	HAL_UART_Transmit(&huart3,(uint8_t * )"4: ",3,1000);
+			break;
+	    case USFL :
+	    	HAL_UART_Transmit(&huart3,(uint8_t * )"5: ",3,1000);
+			break;
+	    case USBL:
+	    	HAL_UART_Transmit(&huart3,(uint8_t * )"6: ",3,1000);
+			break;
+	    }
+
+		uint16_t Num  = Ultrasonic_Read[it];
+		uint16_t reversed_Num = 0 ;
+		uint8_t I2S[6] = {};
+		uint8_t Count_Num = 0;
+		uint8_t ten_multiple = 0 ;
+		uint8_t firstZeros = 0 ;
+		while(Num > 0)
+		{
+		  reversed_Num *= 10 ;
+		  if(firstZeros == 0)
+		  {
+			  if( (Num %10 ) == 0)
+			  {
+				  ten_multiple++;
+			  }
+			  else
+			  {
+				  firstZeros = 1 ;
+			  }
+		  }
+		  reversed_Num += Num %10 ;
+		  Num /= 10;
+		}
+		while(reversed_Num > 0)
+		{
+		  I2S[Count_Num] = (reversed_Num % 10) + '0';
+		  reversed_Num /= 10;
+		  Count_Num++;
+		}
+		while(ten_multiple)
+		{
+			I2S[Count_Num] = '0';
+		    Count_Num++;
+		    ten_multiple--;
+		}
+		I2S[Count_Num] = '\0';
+
+		HAL_UART_Transmit(&huart3,(uint8_t * )I2S,Count_Num,1000);
+		HAL_UART_Transmit(&huart3,(uint8_t * )"\r ",1,1000);
+	  }
+
+
+		HAL_UART_Transmit(&huart3,(uint8_t * )"-------------------\r",20,1000);
+
     /* USER CODE END WHILE */
-	  Catched_Dis = Ultrasonic_Distance();
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

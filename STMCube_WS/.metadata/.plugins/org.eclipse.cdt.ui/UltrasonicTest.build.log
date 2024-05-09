@@ -1,10 +1,10 @@
-13:41:58 **** Incremental Build of configuration Debug for project UltrasonicTest ****
+07:55:39 **** Incremental Build of configuration Debug for project UltrasonicTest ****
 make -j12 all 
 arm-none-eabi-size  UltrasonicTest.elf 
    text	   data	    bss	    dec	    hex	filename
-  14588	     12	   1796	  16396	   400c	UltrasonicTest.elf
+  18948	     12	   1876	  20836	   5164	UltrasonicTest.elf
 Finished building: default.size.stdout
  
 
-13:41:58 Build Finished. 0 errors, 0 warnings. (took 205ms)
+07:55:39 Build Finished. 0 errors, 0 warnings. (took 193ms)
 
